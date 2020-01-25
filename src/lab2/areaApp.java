@@ -28,7 +28,7 @@ public class areaApp {
 		double height = scnr.nextDouble();
 
 		area = (length * height);
-		perimeter = (length * 2) + (height * 2);
+		perimeter = (length * 2) + (width * 2);
 		volume = (height * width * length);
 
 		System.out.println("Area is " + area);
